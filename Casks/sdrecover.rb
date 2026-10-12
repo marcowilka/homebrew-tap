@@ -20,7 +20,6 @@ cask "sdrecover" do
 
   zap trash: [
     "~/Library/Application Support/SDRecover",
-    "~/Library/Preferences/com.sdrecover.app.plist",
     "~/Library/Preferences/de.marcowilka.sdrecover.plist",
   ]
 end

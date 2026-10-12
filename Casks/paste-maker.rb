@@ -20,7 +20,6 @@ cask "paste-maker" do
 
   zap trash: [
     "~/Library/Application Support/PasteMaker",
-    "~/Library/Application Support/Pastiche",
     "~/Library/Containers/de.marcowilka.pastemaker",
   ]
 end
