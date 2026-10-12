@@ -14,11 +14,9 @@ cask "past-perfect" do
     end
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Past Perfect.app"
 
-  zap trash: [
-    "~/Library/Containers/de.marcowilka.pastperfect.mac",
-  ]
+  zap trash: "~/Library/Containers/de.marcowilka.pastperfect.mac"
 end
