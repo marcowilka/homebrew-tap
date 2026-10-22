@@ -1,6 +1,6 @@
 cask "past-perfect" do
   version "1.3.0"
-  sha256 "436efd603e80869e31cb55fbb9273bce59f3f857947eec2e3e4c812c32968b88"
+  sha256 "519063fb9d346fc70977716db4aed7312264acb3c4cfb10742f3d5f1d387b020"
 
   url "https://pastperfect.marcowilka.de/downloads/PastPerfect-#{version}-mac.dmg"
   name "Past Perfect"
